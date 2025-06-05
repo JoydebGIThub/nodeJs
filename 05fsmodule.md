@@ -49,4 +49,14 @@ this is a file
 Finished reading file
 ```
 
+## Write file
+- for write file we have something called `writeFile`
+```js
+fs.writeFile("file.txt", "This is a data", () => {
+  console.log("Written to the file");
+});
+console.log("Finished writing file");
+```
+
+
 
